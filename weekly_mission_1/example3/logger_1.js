@@ -1,8 +1,7 @@
 /************************************************
  * Launch X - Backend with Node JS
  * 
- * Example 2 "Exporting functions between scripts 
- *            with CommonJS"
+ * Example 3 "Different ways to export functions"
  * 
  * 
  * Author: Carlo Gilmar
