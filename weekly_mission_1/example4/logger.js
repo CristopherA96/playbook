@@ -13,7 +13,7 @@
 class Logger {
     constructor(name) {                 // Constructor to initialize object's properties and and to instantiate objects.
       // this is a variable to reference the local context value of this class
-      this.name = name                  // These variables are known as attributes.
+      this.name = name;                  // These variables are known as attributes.
     }
   
     // Info Method
