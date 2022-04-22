@@ -14,7 +14,7 @@ const logger1 = require('./logger_1');      // Variable to store the calling to 
 const logger2 = require('./logger_2');      // Variable to store the calling to the function logger_2 from the logger_2.js file by using require method
 
 console.log("SENDING info MESSAGE from main.js \n");
-logger1.info('This is an informational message');       // Sending the info message to the function in logger_1.js that receveies a message as parameter. This message is receveided by the exports.info module in the logger_1.js file
+logger1('This is an informational message \n');       // Sending the info message to the function in logger_1.js that receveies a message as parameter. This message is receveided by the exports.info module in the logger_1.js file
 
 console.log("SENDING verbose MESSAGE from main.js \n");
-logger2.verbose('This is a verbose message');            // Sending the verbose message to the function in logger_2.js that receveies a message as parameter. This message is receveided by the exports.verbose module in the logger_2.js file
+logger2.verbose('This is a verbose message \n');            // Sending the verbose message to the function in logger_2.js that receveies a message as parameter. This message is receveided by the exports.verbose module in the logger_2.js file
