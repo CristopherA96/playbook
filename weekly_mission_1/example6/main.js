@@ -19,4 +19,5 @@ console.log('Sending message for DEFAULT object instantiation\n');
 const logger = require('./logger');
 
 // Calling the method customMessage for the logger object
+console.log("Modified message\n");
 logger.customMessage();
