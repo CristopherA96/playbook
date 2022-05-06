@@ -13,5 +13,5 @@
 import { log } from './logger.js'
 
 // Sending the parameter message to the log method
-console.log("Sending message \n");
+console.log("Sending message \nMessage: ");
 log('Hello world');

@@ -13,5 +13,5 @@
 import * as loggerModule from './logger.js'
 
 //  Calling the method log for the logger object
-console.log("Modified message\n");
+console.log("Printing information\n");
 console.log(loggerModule);
